@@ -1,5 +1,5 @@
 {
-  "name": "redux-vanilla-javascript",
+  "name": "project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,14 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.11.0"
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
-    "webpack-dev-server": "^2.11.1"
+    "redux-thunk": "^2.2.0"
   }
 }
